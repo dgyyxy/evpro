@@ -2,7 +2,7 @@
     <header>
             <div class="header-title">
                 <a class="brand">
-                    <img src="../common/images/logo.png" width="60" height="29"/><span class="brand-name">{{brand}}</span>
+                    <img src="../common/images/logo.jpg" width="60" height="29"/><span class="brand-name">{{brand}}</span>
                 </a>
             </div>
             <div class="header-container">

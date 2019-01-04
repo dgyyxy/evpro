@@ -10,7 +10,8 @@
     "dev": "webpack --config config/webpack.dev.js --progress --profile --bail",
     "server": "node server/server.js",
     "client": "webpack-dev-server --inline --hot --content-base ./client",
-    "packageVersion": "echo $npm_package_version"
+    "packageVersion": "echo $npm_package_version",
+    "pro": "node --max_old_space_size=8096 node_modules/.bin/webpack --progress --bail --config config/webpack.prod.js"
   },
   "repository": {
     "type": "git",

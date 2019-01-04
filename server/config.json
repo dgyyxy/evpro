@@ -1,9 +1,9 @@
 {
   "production": {
-    "brand": "奇瑞商用车新能源平台",
+    "brand": "评价科技新能源数据平台",
     "copyright": {
-      "name": "winmu",
-      "year": "2017"
+      "name": "pingjia",
+      "year": "2019"
     },
     "email": {
       "userBrand": "ice",
@@ -90,7 +90,7 @@
     }
   },
   "development": {
-    "brand": "奇瑞商用车新能源平台",
+    "brand": "评价科技新能源数据平台",
     "copyright": {
       "name": "winmu",
       "year": "2017"
