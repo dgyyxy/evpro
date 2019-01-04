@@ -1,0 +1,190 @@
+{
+  "production": {
+    "brand": "奇瑞商用车新能源平台",
+    "copyright": {
+      "name": "winmu",
+      "year": "2017"
+    },
+    "email": {
+      "userBrand": "ice",
+      "host": "",
+      "secureConnection": true,
+      "port": 25,
+      "user": "",
+      "pass": "",
+      "from": ""
+    },
+    "ip": "0.0.0.0",
+    "port": "80",
+    "cluster": true,
+    "cdn": "/",
+    "appinfo": {
+      "appkey": "6839153606",
+      "secretkey": "bcd3edfbc30e64ec46cab5c5fcad6813"
+    },
+    "mongodb": {
+      "cookieTime": 7200000,
+      "sessionTime": 86400000,
+      "on": true,
+      "host": "mongodb",
+      "port": "27017",
+      "schema": "dashboard",
+      "user": "",
+      "pass": ""
+    },
+    "vehicle": {
+      "host": "http://gateway/",
+      "uri": "vehicle/"
+    },
+    "commonData": {
+      "host": "http://gateway/",
+      "uri": "common-data/"
+    },
+    "verify": {
+      "host": "http://gateway/",
+      "uri": "verify/"
+    },
+    "location": {
+      "host": "http://gateway/",
+      "uri": "location/"
+    },
+    "message": {
+      "host": "http://gateway/",
+      "uri": "monitor-message/"
+    },
+    "loanVehicle": {
+      "host": "http://gateway/",
+      "uri": "loan-vehicle/"
+    },
+    "statistic": {
+      "host": "http://gateway/",
+      "uri": "statistic-report/"
+    },
+    "status": {
+      "host": "http://gateway/",
+      "uri": "status/"
+    },
+    "remote": {
+      "host": "http://gateway/",
+      "uri": "remote-service/"
+    },
+    "detection": {
+       "host": "http://gateway/",
+        "uri": "status/"
+    },
+    "evgb-gateway": {
+      "host": "http://gateway/",
+      "uri": "evgb-gateway/"
+    },
+    "statisticReport": {
+      "host": "http://gateway/",
+      "uri": "statistic-report/"
+    },
+    "mno": {
+      "host": "http://gateway/",
+      "uri": "mno-mobile/api/"
+    },
+    "options": {
+      "MAIL_FUNCTION": true,
+      "IS_DEALER_SYSTEM": false
+    }
+  },
+  "development": {
+    "brand": "奇瑞商用车新能源平台",
+    "copyright": {
+      "name": "winmu",
+      "year": "2017"
+    },
+    "email": {
+      "userBrand": "ice",
+      "host": "smtp.263.net",
+      "secureConnection": true,
+      "port": 25,
+      "user": "sycxny@winmu.com.cn",
+      "pass": "qirui123",
+      "from": "sycxny@winmu.com.cn"
+    },
+    "ip": "127.0.0.1",
+    "port": "3011",
+    "cluster": false,
+    "cdn": "/",
+    "appinfo": {
+      "appkey": "9909756346",
+      "secretkey": "9fd4b70a1892bec00906d5dedf5ebea6"
+    },
+    "mongodb": {
+      "cookieTime": 7200000,
+      "sessionTime": 86400000,
+      "on": true,
+      "host": "192.168.1.133",
+      "port": "27017",
+      "schema": "dashboard",
+      "user": "",
+      "pass": ""
+    },
+    "vehicle": {
+      "host": "http://106.14.41.177:7777/",
+      "uri": "vehicle/"
+    },
+    "dashboard": {
+      "host": "http://127.0.0.1:3011/",
+      "uri": ""
+    },
+    "commonData": {
+      "host": "http://106.14.41.177:7777/",
+      "uri": "common-data/"
+    },
+    "verify": {
+      "host": "http://106.14.41.177:7777/",
+      "uri": "verify/"
+    },
+    "location": {
+      "host": "http://106.14.41.177:7777/",
+      "uri": "location/"
+    },
+    "message": {
+      "host": "http://106.14.41.177:7777/",
+      "uri": "monitor-message/"
+    },
+    "loanVehicle": {
+      "host": "http://106.14.41.177:7777/",
+      "uri": "loan-vehicle/"
+    },
+    "statistic": {
+      "host": "http://106.14.41.177:7777/",
+      "uri": "statistic-report/"
+    },
+    "status": {
+      "host": "http://106.14.41.177:7777/",
+      "uri": "status/"
+    },
+    "remote": {
+      "host": "http://106.14.41.177:7777/",
+      "uri": "remote-service/"
+    },
+    "evgb-gateway": {
+      "host": "http://106.14.41.177:7777/",
+      "uri": "evgb-gateway/"
+    },
+    "detection": {
+       "host": "http://106.14.41.177:7777/",
+        "uri": "status/"
+    },
+    "statisticReport": {
+      "host": "http://106.14.41.177:7777/",
+      "uri": "statistic-report/"
+    },
+    "mno": {
+      "host": "http://106.14.41.177:7777/",
+      "uri": "mno-mobile/api/"
+    },
+    "device": {
+      "host": "http://192.168.1.17:9001/",
+      "uri": "device/"
+    },
+    "options": {
+      "MAIL_FUNCTION": true,
+      "IS_DEALER_SYSTEM": false
+    }
+  }
+}

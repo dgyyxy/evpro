@@ -1,0 +1,38 @@
+/**
+ * Created by yong.liu on 2017/5/1.
+ */
+export const SET_CONFIG = 'SET_CONFIG';
+
+export const SET_ASIDE_READY = 'SET_ASIDE_READY';
+
+export const SET_FRAME_URL = 'SET_FRAME_URL';
+
+export const SET_LOADING_SHOW = 'SET_LOADING_SHOW';
+
+export const SET_LOADING_HIDE = 'SET_LOADING_HIDE';
+
+export const SET_FULL_SCREEN = 'SET_FULL_SCREEN';
+
+export const CANCEL_FULL_SCREEN = 'CANCEL_FULL_SCREEN';
+
+export const SET_DEVICE_ID = 'SET_DEVICE_ID';
+
+export const SET_WINDOW_ALERT = 'SET_WINDOW_ALERT';
+
+export const SET_WINDOW_ALERT_HIDE = 'SET_WINDOW_ALERT_HIDE';
+
+export const SET_GROUPKEYS = 'SET_GROUPKEYS';
+
+export const SET_MONITOR_CODE = 'SET_MONITOR_CODE';
+
+export const SET_ALERT_LEVEL = 'SET_ALERT_LEVEL';
+
+export const SET_LOADING_TIMEOUT = 'SET_LOADING_TIMEOUT';
+
+export const SET_USER_INFO = 'SET_USER_INFO';
+
+export const ADD_TO_CART = 'ADD_TO_CART';
+
+export const SET_TOKEN='SET_TOKEN';
+
+export const SET_UPLOADCONTENTVALUE='SET_UPLOADCONTENTVALUE';
