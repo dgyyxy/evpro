@@ -1,4 +1,4 @@
-FROM registry.cn-shanghai.aliyuncs.com/winmu/ice-node-runner:7.9.0
+FROM registry.cn-hangzhou.aliyuncs.com/meiauto/ice-node-runner:7.9.0
 VOLUME /var/log/ice/
 
 # Fix for "EXDEV: cross-device link not permitted", see https://github.com/npm/npm/issues/9863
