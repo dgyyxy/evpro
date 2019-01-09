@@ -43,9 +43,11 @@
         background: -o-linear-gradient(45deg, #137ec3, #36a1df);
         background: -moz-linear-gradient(45deg, #137ec3, #36a1df);
         background: linear-gradient(45deg, #137ec3, #36a1df);
+        color: #ffffff;
     }
     .data-table table thead tr th{
         background: #137ec3;
+        color: #ffffff;
     }
 
     /*------------------折叠动画-------------------*/

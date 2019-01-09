@@ -12,7 +12,6 @@
     @import '~ne-style/util/variables.less';
     footer {
         position: absolute;
-        height: 8%;
         line-height: @view-bottom;
         bottom: 0;
         right: 0;
